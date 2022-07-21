@@ -1,5 +1,6 @@
 package com.example.demo;
 
+
 public class Anime {
    private int animeId;
    private  String title;
@@ -78,7 +79,14 @@ public class Anime {
         this.synopsis = synopsis;
     }
 
+    public static void main(String[] args) {
 
+        Anime a= new Anime(1,"viado","3",3,4,"5","5");
+
+
+
+
+    }
 
 
 
